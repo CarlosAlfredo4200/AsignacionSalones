@@ -1,13 +1,22 @@
 
 import './App.css';
-import Dia from './component/Dias/Dia/dia';
+import DiaEd from './component/Dias/DiaEd';
+import HeaderEd from './component/Header/HeaderEd';
+import HorariosEd from './component/Horarios/HorariosEd';
+import InformacionEd from './component/Info/InformacionEd';
+
+
 
 function App() {
   return (
+    <>
     <div className="App">
-     <div>SEMANA LABORAL</div>
-        <Dia/>
+    <HeaderEd />
+        <DiaEd/>
+      <HorariosEd />
+      <InformacionEd />
     </div>
+    </>
   );
 }
 
